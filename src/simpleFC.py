@@ -1,7 +1,7 @@
 import os
 import torch
 from torch import nn
-from models.simple_fc import SimpleFC
+from models.simpleNN import SimpleFC
 from core.train import train
 from core.test import test
 from utils.dataloader import loadFashionMNIST
